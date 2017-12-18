@@ -28,9 +28,9 @@ Copy.sh will find the highest matching portion number from the search.sh and fin
 This script will take in all the audio files in the directory returned from portion.sh and starts to convert all the audio files to .mp3 format. After that, the audio files will be analyzed in term of beats-per-minute and save it back to the directory. The detailed song names will be printed to a text file, then the script will start to sort the playlist. 
 
 ## Instruction
-### 1.Run bash portion.sh <filename> and the script should return 30 1 sec portions of the song and stored it in the portion folder with name and track number in name.txt. label.txt will also increment by 30, every time a new track is added. Make sure you input the full directory of the song and update filelist.txt in the portion folder.
+1.Run bash portion.sh <filename> and the script should return 30 1 sec portions of the song and stored it in the portion folder with name and track number in name.txt. label.txt will also increment by 30, every time a new track is added. Make sure you input the full directory of the song and update filelist.txt in the portion folder.
 
-### 2.Input an audio to run the tracking and modify split.submit and change the argument name to the input audio. Then, run the command condor_submit_dag audiotrack.dag, the original song shall now copy to the playlist folder and you can check the output on copy.out to check whether the song is found or not. After the DAG ran completely, it should generate a suggested playlist called bpmsorted.txt that sort according to the beats per minute.
+2.Input an audio to run the tracking and modify split.submit and change the argument name to the input audio. Then, run the command condor_submit_dag audiotrack.dag, the original song shall now copy to the playlist folder and you can check the output on copy.out to check whether the song is found or not. After the DAG ran completely, it should generate a suggested playlist called bpmsorted.txt that sort according to the beats per minute.
 
 ## Acknowledgement 
 JiaYeh Beh 
