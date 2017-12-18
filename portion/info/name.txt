@@ -1,0 +1,3 @@
+0 /home/ubuntu/project/original/06_Heavy.wav
+1 /home/ubuntu/project/original/10_Overgrown.wav
+2 /home/ubuntu/project/original/12_Waste.wav

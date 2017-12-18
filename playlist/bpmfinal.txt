@@ -1,0 +1,3 @@
+06_Heavy.mp3: 142.809 BPM
+10_Overgrown.mp3: 144.645 BPM
+12_Waste.mp3: 145.580 BPM

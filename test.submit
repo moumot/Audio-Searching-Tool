@@ -1,0 +1,8 @@
+universe = vanilla 
+output = ./test.out 
+error =./test.err 
+log = ./test.log 
+executable = /bin/sleep
+arguments = 10 
+
+queue

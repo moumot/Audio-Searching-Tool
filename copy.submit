@@ -1,0 +1,8 @@
+universe = vanilla 
+output = ./copy.out 
+error =./copy.err 
+log = ./copy.log 
+
+executable = /home/ubuntu/project/copy.sh 
+
+queue

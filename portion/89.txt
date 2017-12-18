@@ -1,0 +1,1 @@
+Mean norm: 0.205840 Mean amplitude: -0.000300 Mean delta: 0.029631

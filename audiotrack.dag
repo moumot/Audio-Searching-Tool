@@ -1,0 +1,7 @@
+JOB A split.submit 
+JOB B search.submit
+JOB C copy.submit
+JOB D bpmsort.submit
+PARENT A CHILD B
+PARENT B CHILD C
+PARENT C CHILD D

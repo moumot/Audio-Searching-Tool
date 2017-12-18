@@ -1,0 +1,3 @@
+Couldn't stat file './*.mp3'
+sox FAIL formats: can't open input file `./*.mp3': No such file or directory
+./*.mp3: 146.000 BPM

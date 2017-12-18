@@ -1,0 +1,9 @@
+universe = vanilla 
+output = split.out 
+error = split.err 
+log = split.log 
+
+executable = /home/ubuntu/project/split.sh 
+arguments = /home/ubuntu/project/test1.wav
+
+queue

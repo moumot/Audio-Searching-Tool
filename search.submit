@@ -1,0 +1,9 @@
+universe = vanilla 
+run_as_owner = TRUE 
+output = ./log/$(Process).out 
+error = ./log/$(Process).err 
+log = ./log/$(Process).log 
+executable = /home/ubuntu/project/search.sh 
+arguments = /home/ubuntu/project/portion/$(file)
+
+queue file from /home/ubuntu/project/portion/filelist.txt

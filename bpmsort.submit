@@ -1,0 +1,6 @@
+universe = vanilla 
+output = ./bpmsort.out 
+error = ./bpmsort.err 
+log = ./bpmsort.log 
+executable =/home/ubuntu/project/bpmsort.sh 
+queue
