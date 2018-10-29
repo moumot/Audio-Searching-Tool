@@ -1,4 +1,4 @@
-# Audio-Searching-Tools
+# Audio-Searching-Tool
 An audio searching tool that will accept any user input audio segments with more than 3 seconds and search across our database to return the song’s information and will also return the full length song back to user. Moreover, the audio searching tool will also create a playlist that sort all the searched songs based on the beat per minute. 
 
 ## Introduction
